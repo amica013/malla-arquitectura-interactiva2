@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background: #fef9f8;
+  padding: 2rem;
+  color: #45151B;
+}
+h1 {
+  text-align: center;
+  color: #C74E51;
+}
+#malla {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.column {
+  min-width: 200px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #FBDE9C;
+}
+.materia {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  background: #EA9DAE;
+}
+.materia.aprobada {
+  background: #F99256;
+}
+.materia:hover {
+  background: #C74E51;
+  color: white;
+}
